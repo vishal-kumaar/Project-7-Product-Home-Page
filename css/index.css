@@ -12,6 +12,7 @@ nav {
 
 img[alt="logo"] {
     width: 90px;
+    cursor: pointer;
 }
 
 .nav-items {
@@ -25,9 +26,10 @@ img[alt="logo"] {
     font-size: 16px;
     font-family: "Poppins", Arial;
     color: #1D1D1D;
+    cursor: pointer;
 }
 
-.nav-item:first-child {
+.nav-item:hover {
     color: #FE5E35;
 }
 
