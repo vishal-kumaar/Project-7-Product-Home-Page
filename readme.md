@@ -16,7 +16,7 @@ This assignment is written in **HTML5 and CSS3** which is given in **"JavaScript
 
 <br>
 
-![Screenshot](./screenshot/1.png "Template Screenshot")
+![Screenshot](./asset/screenshot.png "Template Screenshot")
 
 
 ## 📌 What I Learn
@@ -27,7 +27,7 @@ This assignment is written in **HTML5 and CSS3** which is given in **"JavaScript
     👉 Margin and Padding in CSS.
     👉 Designing beautiful buttons and circles.
 
-## I took 2 hours to complete this project and I really enjoyed it 😊.
+## I took 3 hours to complete this project and I really enjoyed it 😊.
 
 ## 💬 Connect With Me
 
