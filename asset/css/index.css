@@ -221,10 +221,7 @@ img[alt="headphone"] {
     }
     .right-section {
         width: fit-content;
-        margin: auto;
-    }
-    .action-btn {
-        margin: 50px;
+        margin-bottom: 50px;
     }
 }
 
