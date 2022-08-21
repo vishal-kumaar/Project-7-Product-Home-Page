@@ -37,10 +37,20 @@ img[alt="actions"] {
     width: 230px;
 }
 
+.ham-burger {
+    width: 25px;
+    display: none;
+}
+
 .intro-section {
     display: flex;
     justify-content: space-between;
     margin: 0px 80px;
+}
+
+.left-section {
+    margin-right: 20px;
+    width: 538px;
 }
 
 .left-section h3 {
@@ -68,7 +78,7 @@ img[alt="actions"] {
     font-family: "Poppins", Arial;
     font-size: 18px;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     width: fit-content;
     margin-bottom: 10px;
 }
@@ -87,7 +97,6 @@ img[alt="actions"] {
     font-family: "Poppins", Arial;
     font-size: 11px;
     color: #A9A9A9;
-    width: 548px;
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -171,4 +180,96 @@ img[alt="headphone"] {
 
 .black-dot {
     background-color: #000000;
+}
+
+
+/* Media Queries */
+
+@media screen and (max-width:1130px) {
+    .intro-section {
+        flex-direction: column;
+        align-items: center;
+    }
+    .left-section {
+        margin-right: 0;
+    }
+    .sub-headlines {
+        margin-left: 35px;
+    }
+    .right-section {
+        right: 0;
+        top: 2rem;
+    }
+}
+
+@media screen and (max-width:900px) {
+    nav {
+        margin: 50px 25px 20px 25px;
+    }
+    .nav-items {
+        display: none;
+    }
+    img[alt="actions"] {
+        display: none;
+    }
+    .ham-burger {
+        display: block;
+    }
+    .left-section {
+        width: 100%;
+    }
+    .right-section {
+        width: fit-content;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .left-section h3 {
+        font-size: 20px;
+    }
+    .left-section h1 {
+        font-size: 40px;
+    }
+    .sub-headline {
+        font-size: 16px;
+    }
+    .discount {
+        top: 160px;
+        width: 100px;
+    }
+    .discount-content {
+        top: 185px;
+        left: -24px;
+    }
+    .discount-content h4 {
+        font-size: 14px;
+    }
+    .discount-content h1 {
+        font-size: 30px;
+    }
+    img[alt="headphone"] {
+        width: 280px;
+    }
+}
+
+@media screen and (max-width:356px) {
+    .discount {
+        top: 115px;
+        left: -38px;
+        width: 80px;
+    }
+    .discount-content {
+        top: 132px;
+        left: -22px;
+    }
+    .discount-content h4 {
+        font-size: 11px;
+    }
+    .discount-content h1 {
+        font-size: 25px;
+    }
+    img[alt="headphone"] {
+        width: 220px;
+    }
 }
