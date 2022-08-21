@@ -223,6 +223,9 @@ img[alt="headphone"] {
         width: fit-content;
         margin: auto;
     }
+    .action-btn {
+        margin: 50px;
+    }
 }
 
 @media screen and (max-width:500px) {
