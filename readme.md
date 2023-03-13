@@ -1,4 +1,4 @@
-## 🔗Project 7 Link
+## 🔗Project Link
 https://html5-css3-project-07.netlify.app/
 
 
