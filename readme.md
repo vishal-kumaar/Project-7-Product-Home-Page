@@ -1,5 +1,5 @@
 ## 🔗Project Link
-https://product-home-site.vercel.app/
+https://vishal-kumaar.github.io/Project-7-Product-Home-Page/
 
 ## ✨ Project-7: Product Home Page ✨
 
